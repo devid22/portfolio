@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:ital,wght@0,100;1,100&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+#contacto {
+    background-image: url("../images/fondo-contacto.png");
+    background-size: cover;
+}
+#proyectos {
+    background-image: url("../images/fondo-proyectos.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media (max-width: 750px) {
+    /*configuración para mobile*/
+    #contacto {
+        background-image: url("../images/fondo-proyectos.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #proyectos {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+.proyecto {
+    background-color: white;
+    color: gray;
+}
+.proyecto h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: red;
+    color: white;
+    padding: 15px;
+}
+.proyecto img {
+    height: 212px;
+}
+.proyecto p {
+    font-size: 14px;
+    height: 130px;
+}
+h1{
+    color: #E20000;
+}
+p {
+    color: gray;
+}
+.btn-contacto {
+    color: blueviolet;
+    border: 0px;
+}
+.btn-contacto:hover {
+    color: white;
+    background-color: blueviolet;
+}
+.btn-rojo {
+    color: white;
+    background-color: red;
+    border: 0px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.btn-rojo:hover {
+    color: white;
+    background-color: blueviolet;
+}
+.link-rojo {
+    text-decoration: none;
+    color: red;
+}
+#contacto footer {
+    color: white;
+    position: absolute;
+    bottom: 0px;
+}
+#contacto footer a {
+    color: white;
+}
+#proyectos footer {
+    color: red;
+}
